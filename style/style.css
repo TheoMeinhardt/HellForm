@@ -1,0 +1,29 @@
+body {
+  background-color: #0b5563;
+}
+
+/* 
+register form:
+*/
+
+.registerForm {
+  margin: 20vh 25vw 0vw 25vw;
+  width: 50vw;
+}
+
+.registerUsername,
+.registerPassword {
+  border: 2px solid red;
+  width: 50%;
+  height: 4vh;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.registerSubmit {
+  width: 6vw;
+  height: 5vh;
+  border-radius: 999px;
+  border-color: #a02c6c;
+  background-color: #a02c6c;
+}

@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 90%);
+}
+
+/* 
+register Form:
+*/
+
+.registerForm > label {
+  font-size: 1.1em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.registerHeader {
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.registerSubmit {
+  font-weight: 400;
+  font-style: italic;
+}

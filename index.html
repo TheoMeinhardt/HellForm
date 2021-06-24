@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
+
+    <!-- css: -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/fontStyling.css" />
+
+    <title>Formular aus der Hölle</title>
+  </head>
+  <body>
+    <div class="content" id="content">
+      <div class="registerForm" id="registerForm">
+        <p class="registerHeader">Register:</p>
+        <label for="registerUsername">Username:</label>
+        <p class="registerUsername" id="registerUsername" name="registerUsername"></p>
+        <label>select char:</label>
+        <select class="charSelector" id="charSelector"></select>
+        <button class="insertButton" id="insertButton">insert</button>
+        <button class="insertUppercaseButton" id="insertUppercaseButton">insert uppercase</button>
+        <button id="clearPassword">clear</button>
+
+        <br />
+        <label for="registerPassword">Password:</label>
+        <p class="registerPassword" id="registerPassword" type="password" name="registerPassword"></p>
+        <input class="passwordCharcodeBox" id="passwordCharcodeBox" value="write charcode" />
+        <button class="insertCharcodeButton" id="insertCharcodeButton">insert charcode</button>
+        <button id="clearUsername">clear</button>
+
+        <br />
+        <label>Enter your age:</label> <br />
+        <p class="ageYearSliderValue" id="ageYearSliderValue"></p>
+        <input id="ageSliderYear" type="range" min="1900" max="2050" />
+        <p class="ageMonthSliderValue" id="ageMonthSliderValue"></p>
+        <input id="ageSliderMonth" type="range" min="0" max="11" />
+        <p id="ageDaySliderValue"></p>
+        <input id="ageSliderDay" type="range" min="1" max="31" />
+
+        <input class="registerSubmit" id="registerSubmit" type="submit" value="register" name="registerSubmit" />
+      </div>
+    </div>
+
+    <!-- script: -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
